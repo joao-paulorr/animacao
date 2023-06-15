@@ -17,12 +17,13 @@
 }
 
 .movimento {
-    animation: correr 2s linear infinite
+    animation: correr 4s linear infinite;
 }
 
 .pular {
-    animation: pular 2s
+    animation: pular 500ms ease-out;
 }
+
 @keyframes pular {
     0% {
         bottom: 0px;
@@ -43,10 +44,10 @@
 
 @keyframes correr {
     0% {
-        left: 500px;
+        right: 500px;
     }
 
     100% {
-        left: -30%;
+        right: -30%;
     }
 }
