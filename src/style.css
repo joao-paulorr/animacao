@@ -11,16 +11,21 @@
     height: 50px;
     border-radius: 50%;
     border: 5px solid rgb(0, 0, 0);
-    top: 150px;
+    top: 140px;
     position: absolute;
     background-color: crimson;
+}
+
+.movimento {
+    animation: correr 2s linear infinite
 }
 
 @keyframes correr {
     0% {
         left: 500px;
     }
+
     100% {
-        left: -50%;
+        left: -30%;
     }
 }
