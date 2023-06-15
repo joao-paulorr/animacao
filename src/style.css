@@ -14,7 +14,6 @@
     top: 150px;
     position: absolute;
     background-color: crimson;
-    animation: correr 4s infinite linear;
 }
 
 @keyframes correr {
